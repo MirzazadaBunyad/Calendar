@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("./image/nature.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+  #calendar-container {
+    width: 500px;
+    margin: 150px auto;
+    text-align: center;
+    background-color: rgb(179, 179, 179, 0.6);
+}
+
+#month-year {
+    color: #212F3C;
+    font-size: 35px;
+    margin: 10px 0;
+    padding: 20px 0 0 0;
+  }
+
+  #calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    padding: 10px;
+  }
+
+  #calendar .day {
+    background-color: rgb(255, 255, 134);
+    padding: 10px;
+  }
+
+  #calendar .today {
+    background-color: rgb(105, 105, 255);
+    font-weight: bold;
+    color: white;
+  }
